@@ -2,9 +2,9 @@ package com.krakedev;
 
 public class Calculadora {
 	
-	public int sumar(int a, int b) {
+	public double sumar(int a, int b) {
 		
-		int resultado;
+		double resultado;
 		resultado = a + b;
 		
 		return resultado;
