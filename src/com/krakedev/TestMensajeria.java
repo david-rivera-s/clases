@@ -3,13 +3,26 @@ package com.krakedev;
 public class TestMensajeria {
 
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
 		
 		Mensajeria m1 = new Mensajeria();
 		
+		// Asignamos los valores usando los setters
+		m1.setNombre("Messi");
+		m1.setApodo("La Pulga");
+		
+		// Llamamos al saludo
 		m1.saludar();
 		
-		m1.saludarPersona("Messi", "La Pulga");
+		// Modificamos los valores usando los setters
+		m1.setNombre("Cristiano");
+		m1.setApodo("El Bicho");
+		
+		// Consultamos individualmente con los getters
+		System.out.println("Nombre consultado con getter: " + m1.getNombre());
+		System.out.println("Apodo consultado con getter: " + m1.getApodo());
+		
+		// Llamamos al saludo
+		m1.saludar();
 
 	}
 
