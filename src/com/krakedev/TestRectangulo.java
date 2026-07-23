@@ -6,20 +6,25 @@ public class TestRectangulo {
 		// TODO Auto-generated method stub
 
 		Rectangulo r1 = new Rectangulo();
-		r1.altura = 5;
-		r1.base = 4;
+		
+		// Asignamos valores usando los setters
+		r1.setAltura(5);
+		r1.setBase(4);
 		
 		int resultadoArea;
 		resultadoArea = r1.calcularArea();
-		System.out.println("Resultado: "+resultadoArea);
+		System.out.println("Resultado: " + resultadoArea);
 		
 		Rectangulo r2 = new Rectangulo();
 		int resultadoArea2;
-		r2.altura = 8;
-		r2.base = 2;
+		
+		// Asignamos valores usando los setters para el segundo rectángulo
+		r2.setAltura(8);
+		r2.setBase(2);
 		
 		resultadoArea2 = r2.calcularArea();
-		System.out.println("Resultado rectangulo 2: "+resultadoArea2);
+		System.out.println("Resultado rectángulo 2: " + resultadoArea2);
+		
 	}
 
 }
