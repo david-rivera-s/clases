@@ -5,15 +5,20 @@ public class Calculadora {
     // Atributo privado para guardar un estado (el resultado)
     private double resultado;
 
+    // Constructor con parámetros (el constructor por defecto ya no existe)
+    public Calculadora(double resultado) {
+        this.resultado = resultado;
+    }
+
     // Métodos para operar (guarda el valor en el atributo)
     public double sumar(int a, int b) {
         resultado = a + b;
         return resultado;
     }
     
-    public int restar(int a, int b) {
+    public double restar(int a, int b) {
         resultado = a - b;
-        return (int) resultado;
+        return resultado;
     }
 
     // --- GETTER Y SETTER ---
