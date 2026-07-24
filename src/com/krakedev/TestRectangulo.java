@@ -5,7 +5,7 @@ public class TestRectangulo {
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 
-		Rectangulo r1 = new Rectangulo();
+		Rectangulo r1 = new Rectangulo(0,0);
 		
 		// Asignamos valores usando los setters
 		r1.setAltura(5);
@@ -15,7 +15,7 @@ public class TestRectangulo {
 		resultadoArea = r1.calcularArea();
 		System.out.println("Resultado: " + resultadoArea);
 		
-		Rectangulo r2 = new Rectangulo();
+		Rectangulo r2 = new Rectangulo(5,5);
 		int resultadoArea2;
 		
 		// Asignamos valores usando los setters para el segundo rectángulo
