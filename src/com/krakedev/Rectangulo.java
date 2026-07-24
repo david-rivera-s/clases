@@ -6,6 +6,12 @@ public class Rectangulo {
 	private int base;
 	private int altura;
 	
+	// Constructor con parámetros
+	public Rectangulo(int base, int altura) {
+		this.base = base;
+		this.altura = altura;
+	}
+
 	// Método para calcular el área
 	public int calcularArea() {
 		int area = base * altura;
