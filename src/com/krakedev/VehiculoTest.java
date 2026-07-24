@@ -41,6 +41,23 @@ public class VehiculoTest {
 		System.out.println("Año: " + v2.getAnio());
 		System.out.println("Marca: " + v2.getMarca());
 		System.out.println("Modelo: " + v2.getModelo());
+		
+		System.out.println("======= Vehículo 3 Creado con PARAMETRO ========");
+
+		Vehiculo v3 = new Vehiculo("Renault");
+		
+		System.out.println("Año: " + v3.getAnio());
+		System.out.println("Marca: " + v3.getMarca());
+		System.out.println("Modelo: " + v3.getModelo());
+		
+		System.out.println("======= Vehículo 4 Creado con PARAMETRO ========");
+
+		Vehiculo v4 = new Vehiculo("VW", "Amarok", "2026");
+		
+		System.out.println("Año: " + v4.getAnio());
+		System.out.println("Marca: " + v4.getMarca());
+		System.out.println("Modelo: " + v4.getModelo());
+		
 				
 	}
 
